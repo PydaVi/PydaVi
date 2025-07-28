@@ -30,5 +30,5 @@ Designed to support cybersecurity learning and democratize access to powerful to
 
 ### 📫 Contact
 
-- [LinkedIn](https://www.linkedin.com/in/fabio-augustto/)  
+- [LinkedIn]([https://www.linkedin.com/in/fabio-souza-2464a81a9/])  
 - Email: augustt.fabio@gmail.com  
