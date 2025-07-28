@@ -16,7 +16,7 @@
 - Designing secure and resilient cloud architectures
 - Automating incident response
 - SRE best practices and observability
-- Vulnerability management
+- Infraestructure as Code
 
 ---
 
