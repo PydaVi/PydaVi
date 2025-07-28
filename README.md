@@ -1,7 +1,9 @@
 # 👋 Olá, eu sou o Fabio Souza
 
+> 📛 **PydaVi** vem de *Pai da Vi*, a Vitória — minha filha e maior alegria da vida.
+
 🔧 Analista de Infraestrutura com foco em **Cloud**, **Segurança** e **Automação**  
-🎓 Certificações: AWS Solutions Arquitect Associate | AWS Cloud Practitioner | Fortinet Certified Associate  
+🎓 Certificações: AWS Solutions Architect – Associate | AWS Cloud Practitioner | Fortinet Certified Associate  
 
 ---
 
@@ -29,6 +31,4 @@ Idealizado para estudos de cibersegurança e democratização de ferramentas ava
 ### 📫 Contato
 
 - [LinkedIn](https://www.linkedin.com/in/fabio-augustto/)  
-- Email: augustt.fabio@gmail.com
-
----
+- Email: augustt.fabio@gmail.com  
