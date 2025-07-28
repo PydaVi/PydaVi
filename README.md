@@ -1,16 +1,34 @@
-## Hi there 👋
+# 👋 Olá, eu sou o Fabio Souza
 
-<!--
-**PydaVi/PydaVi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔧 Analista de Infraestrutura com foco em **Cloud**, **Segurança** e **Automação**  
+🎓 Certificações: AWS Solutions Arquitect Associate | AWS Cloud Practitioner | Fortinet Certified Associate  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔭 Atualmente trabalhando com:
+- Ambientes em nuvem (AWS)
+- Monitoramento e hardening de infraestrutura
+- Liderança técnica em projetos de segurança da informação e implementações em cloud
+
+### 🌱 Em constante aprendizado sobre:
+- Arquitetura de ambientes seguros e resilientes na nuvem
+- Automação de resposta a incidentes
+- Boas práticas de SRE e observabilidade
+- Gestão de vulnerabilidades
+
+---
+
+### 📌 Projetos em destaque
+
+#### 🛰 [SOC Autônomo](https://github.com/PydaVi/soc-autonomo)  
+Ambiente portátil e modular para análise de arquivos PCAP com Zeek, Suricata e Elastic SIEM.  
+Idealizado para estudos de cibersegurança e democratização de ferramentas avançadas.
+
+---
+
+### 📫 Contato
+
+- [LinkedIn](https://www.linkedin.com/in/fabio-augustto/)  
+- Email: augustt.fabio@gmail.com
+
+---
