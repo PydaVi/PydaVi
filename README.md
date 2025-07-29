@@ -15,7 +15,7 @@
 ### 🌱 Continuously learning about:
 - Designing secure and resilient cloud architectures
 - Automating incident response
-- SRE best practices and observability
+- Platform Engineering
 - Infraestructure as Code
 
 ---
