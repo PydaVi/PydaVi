@@ -11,45 +11,29 @@
 - Cloud environments (AWS)
 - Infrastructure hardening and monitoring
 - Technical leadership in cloud and security projects
-- Platform and infrastructure standardization
 
 ## 🌱 Continuously learning about:
-- Designing secure and resilient cloud architectures
-- Automating incident response
+- Secure and resilient cloud architecture design
 - Platform Engineering
-- Infrastructure as Code (Terraform, GitOps)
-- Cloud governance and security automation
+- Infrastructure as Code
+- Cloud governance and automation
 
 ---
 
 ## 📌 Highlighted Projects
 
 ### 🧠 [brainctl](https://github.com/PydaVi/brainctl)
-**Declarative Infrastructure Control Plane for AWS (Terraform-powered)**
+**Experimental study project – Declarative Infrastructure Control Plane (AWS + Terraform)**
 
-`brainctl` is a CLI tool written in **Go** that enables teams to provision and govern AWS infrastructure using a **fully declarative YAML model**, with Terraform generated dynamically under the hood.
+`brainctl` is a **study-focused CLI project**, written in **Go**, designed to explore **Platform Engineering concepts** by provisioning AWS infrastructure from a fully declarative YAML model, with Terraform generated dynamically.
 
-**Key features:**
-- Declarative infrastructure definition via `app.yaml`
-- Automatic Terraform generation (no manual TF editing)
-- Full lifecycle management: `plan`, `apply`, `destroy`
-- Drift detection using Terraform detailed exit codes
-- One remote `tfstate` per application (S3 + DynamoDB lock)
-- Built-in governance and validation rules
-- Standardized enterprise-ready AWS architecture:
-  - EC2 (App / DB)
-  - Load Balancer
-  - WAF (production)
-  - Security Groups
-  - CloudWatch + AWS Managed Grafana
+**Project goals:**
+- Understand declarative infrastructure engines
+- Experiment with Terraform lifecycle automation
+- Study governance, validation, and drift detection patterns
+- Practice Go-based CLI and platform design
 
-**Vision:**
-- Platform Engineering mindset
-- Infrastructure as a product
-- Strong governance by default
-- Designed to evolve into multi-account, CI/CD-driven, enterprise-scale environments
-
-> brainctl acts as the *“brain”* of the infrastructure, enforcing standards, preventing drift, and providing a single source of truth for cloud deployments.
+> ⚠️ This project is **not production-ready** and is intended for learning, experimentation, and architectural exploration.
 
 ---
 
