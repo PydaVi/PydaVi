@@ -9,14 +9,14 @@
 
 ## 🔭 Currently working with:
 - Cloud environments (AWS)
-- Infrastructure hardening and monitoring
+- Infrastructure hardening, monitoring, and alerting
 - Technical leadership in cloud and security projects
 
 ## 🌱 Continuously learning about:
 - Secure and resilient cloud architecture design
-- Platform Engineering
+- Platform Engineering and Golden Paths
 - Infrastructure as Code
-- Cloud governance and automation
+- Cloud governance, observability, and security automation
 
 ---
 
@@ -27,13 +27,16 @@
 
 `brainctl` is a **functional MVP CLI**, written in **Go**, designed to provision and manage AWS infrastructure using a **fully declarative YAML model**, with Terraform generated dynamically under the hood.
 
-The project explores **Platform Engineering and cloud governance concepts**, focusing on:
-- Declarative infrastructure as the source of truth
-- Automated Terraform lifecycle (`plan`, `apply`, `destroy`)
-- Drift detection and infrastructure consistency
-- Governance, validation, and standardization patterns
+The project focuses on **Platform Engineering principles**, combining:
+- **Governance and standardization** of cloud infrastructure
+- **Reproducibility** through declarative definitions as a single source of truth
+- **Observability and alerting** as first-class concerns
+- **Security and cyber resilience** embedded into infrastructure patterns
+- **Drift detection** to identify unmanaged changes
 
-> The project is actively evolving and serves as both a **learning platform** and a **foundation for more advanced platform capabilities**.
+`brainctl` also acts as a **Golden Path**, guiding teams toward secure, observable, and compliant infrastructure by default, while still allowing controlled evolution.
+
+> The project is actively evolving and serves as both a learning platform and a solid foundation for advanced platform and security capabilities.
 
 ---
 
