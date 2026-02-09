@@ -23,17 +23,17 @@
 ## 📌 Highlighted Projects
 
 ### 🧠 [brainctl](https://github.com/PydaVi/brainctl)
-**Experimental study project – Declarative Infrastructure Control Plane (AWS + Terraform)**
+**Declarative Infrastructure Control Plane (AWS + Terraform)**
 
-`brainctl` is a **study-focused CLI project**, written in **Go**, designed to explore **Platform Engineering concepts** by provisioning AWS infrastructure from a fully declarative YAML model, with Terraform generated dynamically.
+`brainctl` is a **functional MVP CLI**, written in **Go**, designed to provision and manage AWS infrastructure using a **fully declarative YAML model**, with Terraform generated dynamically under the hood.
 
-**Project goals:**
-- Understand declarative infrastructure engines
-- Experiment with Terraform lifecycle automation
-- Study governance, validation, and drift detection patterns
-- Practice Go-based CLI and platform design
+The project explores **Platform Engineering and cloud governance concepts**, focusing on:
+- Declarative infrastructure as the source of truth
+- Automated Terraform lifecycle (`plan`, `apply`, `destroy`)
+- Drift detection and infrastructure consistency
+- Governance, validation, and standardization patterns
 
-> ⚠️ This project is **not production-ready** and is intended for learning, experimentation, and architectural exploration.
+> The project is actively evolving and serves as both a **learning platform** and a **foundation for more advanced platform capabilities**.
 
 ---
 
