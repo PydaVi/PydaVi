@@ -1,34 +1,19 @@
-# 👋 Hi, I'm Fabio Souza
-> 📛 **PydaVi** comes from *Pai da Vi(tória)* – "Father of Vi(tória)", my daughter and biggest joy in life.
+# Fabio Souza
 
-🔧 Infrastructure Analyst focused on **Cloud**, **Security**, and **Automation**  
-🎓 Certifications: AWS Solutions Architect – Associate | AWS Cloud Practitioner | Fortinet Certified Associate  
+Cloud & Security Engineer. Building things to understand them.
 
----
-
-## 🔭 Currently working with:
-- Cloud environments (AWS)
-- Infrastructure hardening, monitoring, and alerting
-- Technical leadership in cloud and security projects
-
-## 🌱 Continuously learning about:
-- Secure and resilient cloud architecture design
-- Platform Engineering and Golden Paths
-- Infrastructure as Code
-- Cloud governance, observability, and security automation
+AWS (SAA + CCP) · Fortinet · Kubernetes · Go · Terraform · EDR/SIEM
 
 ---
 
-## 📌 Highlighted Projects
+## Projects
 
-### 👁 [witness](https://github.com/PydaVi/witness)
-**Programmable L7 Reverse Proxy with Narrative Observability**
+### [witness](https://github.com/PydaVi/witness)
+HTTP/1.1 reverse proxy written in Go from scratch — no frameworks, no abstractions.
 
-`witness` is an HTTP/1.1 reverse proxy written in **Go from scratch** — no heavy frameworks, no abstractions hiding what's actually happening at the system level.
+Every layer built to understand what production infrastructure actually does underneath: TCP accept loops, manual HTTP/1.1 parsing, concurrent load balancing with mutex-safe round-robin, circuit breakers as state machines, TLS termination.
 
-The project is built around a core frustration: proxies and firewalls make decisions constantly and stay silent about them. When something breaks, you're chasing logs full of noise and empty of context. The tool knew. It didn't tell you.
-
-`witness` addresses this with **Narrative Mode** — instead of just emitting metrics and structured logs, it observes traffic patterns over time and surfaces what it notices, before it becomes a problem:
+The differentiator is **Narrative Mode** — instead of emitting raw metrics, witness observes traffic patterns over time and surfaces what it notices in plain language, before it becomes a problem:
 
 ```
 [narrative] backend-api is responding 40ms above the 2h baseline.
@@ -38,37 +23,45 @@ The project is built around a core frustration: proxies and firewalls make decis
             Similar pattern preceded the last degradation window (2025-03-01 02:14).
 ```
 
-Built incrementally across versioned milestones — from raw TCP listener and HTTP/1.1 parser to TLS termination, circuit breaking, and statistical anomaly detection — every layer is an opportunity to understand what production infrastructure is actually doing underneath.
-
-> `witness` is actively evolving. It exists because understanding beats operating blindly.
+`Go` `TCP` `HTTP/1.1` `Observability` `Circuit Breaker` `TLS`
 
 ---
 
-### 🧠 [brainctl](https://github.com/PydaVi/brainctl)
-**Declarative Infrastructure Control Plane (AWS + Terraform)**
+### [brainctl](https://github.com/PydaVi/brainctl)
+Declarative infrastructure CLI in Go — YAML contracts generate validated Terraform workspaces dynamically.
 
-`brainctl` is a **functional MVP CLI**, written in **Go**, designed to provision and manage AWS infrastructure using a **fully declarative YAML model**, with Terraform generated dynamically under the hood.
+Functional MVP. Provisions EC2 workloads and self-managed Kubernetes clusters on AWS with observability, recovery, and security guardrails built in by default. Not a wrapper — opinionated guardrails block inconsistent configurations before they reach Terraform.
 
-The project focuses on **Platform Engineering principles**, combining:
-- **Governance and standardization** of cloud infrastructure
-- **Reproducibility** through declarative definitions as a single source of truth
-- **Observability and alerting** as first-class concerns
-- **Security and cyber resilience** embedded into infrastructure patterns
-- **Drift detection** to identify unmanaged changes
+```yaml
+workload:
+  type: ec2-app
+lb:
+  enabled: true
+observability:
+  enabled: true
+recovery:
+  enabled: true
+```
 
-`brainctl` also acts as a **Golden Path**, guiding teams toward secure, observable, and compliant infrastructure by default, while still allowing controlled evolution.
-
-> The project is actively evolving and serves as both a learning platform and a solid foundation for advanced platform and security capabilities.
-
----
-
-
-### 🛰 [SOC Autônomo](https://github.com/PydaVi/soc-autonomo)
-A lightweight, modular lab to analyze PCAP files with Zeek, Suricata, and Elastic SIEM.  
-Designed to support cybersecurity learning and democratize access to powerful tools.
+`Go` `Terraform` `AWS` `Platform Engineering` `IaC` `CloudWatch` `DLM`
 
 ---
 
-## 📫 Contact
-- [LinkedIn](https://www.linkedin.com/in/fabio-souza-2464a81a9)  
-- 📧 Email: augustt.fabio@gmail.com
+### [brain-chaos](https://github.com/PydaVi/brain-chaos)
+Kubernetes lab for learning cloud native security, chaos engineering, and GitOps hands-on.
+
+Local k3d cluster with ArgoCD GitOps, full observability stack (Prometheus + Grafana + Loki + kube-state-metrics), and a CI/CD pipeline with manifest validation, Kyverno policy checks, and Trivy scanning. Built to simulate real attacks and failures against a synthetic e-commerce app — with documented detection, containment, and remediation for each scenario.
+
+`Kubernetes` `ArgoCD` `Kyverno` `Trivy` `Prometheus` `Loki` `Chaos Engineering` `GitHub Actions`
+
+---
+
+## Currently
+
+Working as Infrastructure & Cybersecurity Analyst at Suhai Seguradora — cloud environments, network security (FortiGate/Fortinet), EDR/SIEM operations, AWS architecture.
+
+Building toward Cloud Native Security Engineer — supply chain security, runtime security (Falco/eBPF), network policy (Cilium), and everything that happens between `git push` and a pod running in production.
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/fabio-souza-2464a81a9) · augustt.fabio@gmail.com
